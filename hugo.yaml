@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"  # please update this to your actual URL
+baseurl: "https://zenops-corporation.github.io/zenopscron/"  # please update this to your actual URL
 languageCode: "de-de"
 title: "ZenOps Chronicles"
 theme: "hugo-xmin"
