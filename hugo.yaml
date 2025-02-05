@@ -7,6 +7,8 @@ disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 
+publishDir: "docs"
+
 permalinks:
   note: "/note/:day/:month/:year/:slug/"
   post: "/post/:day/:month/:year/:slug/"
