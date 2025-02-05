@@ -1,0 +1,52 @@
+baseurl: "https://example.org/"  # please update this to your actual URL
+languageCode: "de-de"
+title: "ZenOps Chronicles"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:day/:month/:year/:slug/"
+  post: "/post/:day/:month/:year/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Projekte
+      url: "about/"
+      weight: 2
+    - name: Kategorien
+      url: "categories/"
+      weight: 3
+    - name: Tags
+      url: "tags/"
+      weight: 4
+    - name: Subscribe
+      url: "index.xml"
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy; [Andreas Polligkeit & Denis Axt](https://yihui.org) 2025 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
